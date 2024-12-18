@@ -1,0 +1,214 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_pob",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_dob",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_passNo",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_addrs",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_sex",
+						"type": "string"
+					}
+				],
+				"name": "createPassport",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPassport",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "addrs",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "firstName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "sex",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lastName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "placeOfBirth",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "DOB",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "passportNumber",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Main.Passport[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "passports",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addrs",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "sex",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lastName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "placeOfBirth",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "DOB",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "passportNumber",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Main.sol": "Main"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Main.sol": {
+			"keccak256": "0x86ad5c88d28ea319b2dd6dfd3c529469160123497f93b1c960d8da91de6c3e01",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://841f55f63f7a3b50707823e2adf522d06c38993b155eca78a7c188644ed49042",
+				"dweb:/ipfs/QmSUGZjdCK4d7scZh3sbEqE7GCAh4AWAbo2BAFvqPXGzuT"
+			]
+		}
+	},
+	"version": 1
+}
